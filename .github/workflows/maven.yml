@@ -3,12 +3,12 @@ name: Java CI with Maven
 on: [push, pull_request]
 
 jobs:
-build:
+ build:
 
 
-runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
-steps: 
+    steps: 
 - uses: actions/checkout@v2
 - name: Set up JDK 11
   uses: action/setup-java@v2
